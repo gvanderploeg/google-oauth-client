@@ -1,6 +1,4 @@
 /*
- * Copyright 2012 SURFnet bv, The Netherlands
- *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -76,7 +74,7 @@ var OAuth = function(opt) {
         expires: obj["expires_in"],
         scope: obj["scope"]
       };
-      context.location.hash = "";
+//      context.location.hash = "";
       return oauthTokenInfo.accessToken;
     }
   }
