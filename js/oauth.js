@@ -74,7 +74,7 @@ var OAuth = function(opt) {
         expires: obj["expires_in"],
         scope: obj["scope"]
       };
-//      context.location.hash = "";
+      context.location.hash = "";
       return oauthTokenInfo.accessToken;
     }
   }
